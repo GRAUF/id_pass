@@ -1,0 +1,52 @@
+<html>
+<head>
+    <title>ID Card</title>
+    <script src="https://unpkg.com/react/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+        function App() {
+            return (
+                <div className="max-w-sm mx-auto border border-gray-300 p-4">
+                    <div className="flex justify-between items-center mb-4">
+                        <img src="https://api17.iloveimg.com/v1/download/rl4zpAk9n5354spjsyx837wl7lv1x7dvh8zs5b6px9pshkA58jplcg23dbmlv3kthn3cbqsb91rjhv90l4dhb5vv2Afclt29t39pxct1mA4Apnc3qd30j5rsj6lbf5b1wwy453jd5864blm0f6drp51gnyw066wchhc5w8A88Ah1p5wp4r81" alt="Institution Logo" className="w-12 h-12"/>
+                        <img src="G.RAUF KHAN IMAG.jpeg" alt="Profile Picture" className="w-24 h-24 border border-gray-300"/>
+                    </div>
+                    <div className="text-left mb-4">
+                        <p><strong>Name:</strong> Ghulam Rauf Khan</p>
+                        <p><strong>Roll No:</strong> 00465259</p>
+                        <p><strong>Distance learning:</strong> No</p>
+                        <p><strong>City:</strong> Karachi</p>
+                        <p><strong>Center:</strong> Governor House Karachi</p>
+                        <p><strong>Campus:</strong> Main</p>
+                        <p><strong>Days / Time:</strong> Sunday - 02:00 PM - 05:00 PM</p>
+                        <p><strong>Batch:</strong> Batch 1</p>
+                    </div>
+                    <div className="flex justify-between items-center border-t border-gray-300 pt-2">
+                        <span className="text-gray-500">Q2</span>
+                        <span className="text-blue-500">Authorized Signature</span>
+                    </div>
+                    <div className="text-center mt-4">
+                        <p className="text-4xl text-blue-500">Q2</p>
+                        <p className="text-gray-500">Web 3.0 & Metaverse</p>
+                        <p className="text-gray-500">Artificial Intelligence</p>
+                        <p className="text-gray-500">Tessor's Initiative for</p>
+                    </div>
+                </div>
+            );
+        }
+
+        ReactDOM.render(<App />, document.getElementById('root'));
+    </script>
+</body>
+</html>
